@@ -30,10 +30,10 @@ const Service = (): JSX.Element => {
           <AService
             title={['Research and', 'Discovery']}
             description={[
-              'We will analyse direct and indirect',
-              'competitor research. Research your',
-              'audience and their mindset, Audit,',
-              'your existing channels',
+              'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+              'autem provident commodi ea rem magnam eius odio',
+              'animi velit consequatur, quisquam rem veritatis ',
+              'corrupti perspiciatis cum!',
             ]}
             icon={<FaSearch className='text-white w-8 h-8' />}
             rounded={'right'}
@@ -41,10 +41,10 @@ const Service = (): JSX.Element => {
           <AService
             title={['Marketing', 'Strategy']}
             description={[
-              'Setting goals, and KPIs to be able to',
-              'measure success and ROI. Marketing',
-              'strategy, using the findings from the',
-              'digital audit.',
+              'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+              'autem provident commodi ea rem magnam eius odio',
+              'animi velit consequatur, quisquam rem veritatis ',
+              'corrupti perspiciatis cum!',
             ]}
             icon={<FaTools className='text-white w-8 h-8' />}
             rounded={'left'}
@@ -52,10 +52,10 @@ const Service = (): JSX.Element => {
           <AService
             title={['Project', 'Management']}
             description={[
-              'Working closely with your in-house',
-              'marketing team and/or agency',
-              'Ensure the campaign is set up with',
-              'your goals in mind',
+              'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+              'autem provident commodi ea rem magnam eius odio',
+              'animi velit consequatur, quisquam rem veritatis ',
+              'corrupti perspiciatis cum!',
             ]}
             icon={<FaListUl className='text-white w-8 h-8' />}
             rounded={'right'}
@@ -63,10 +63,10 @@ const Service = (): JSX.Element => {
           <AService
             title={['Consultant', 'Specialist']}
             description={[
-              'We will train your staff and find',
-              'the right agency for you and your',
-              'needs. Flexible attention based on',
-              'your needs',
+              'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+              'autem provident commodi ea rem magnam eius odio',
+              'animi velit consequatur, quisquam rem veritatis ',
+              'corrupti perspiciatis cum!',
             ]}
             icon={<FaUserAstronaut className='text-white w-8 h-8' />}
             rounded={'left'}

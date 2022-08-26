@@ -22,20 +22,20 @@ const Grow = (): JSX.Element => {
       <div className='flex flex-col w-full h-full'>
         <div className='flex flex-col'>
           <div className='text-3xl ml-36 md:text-6xl text-gray-900 font-bold tracking-normal flex flex-col space-y-2'>
-            <p>Grow with A the Digital</p> <p>Marketing Agency You</p>
+            <p>Grow with the Payment</p> <p>Online Platform You</p>
             <p>Can Trust? </p>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2'>
             <div className='flex flex-col'>
               <div className='ml-36'>
                 <p className='my-12 text-gray-600 text-base md:text-lg font-medium tracking-wide'>
-                  Our digital marketing experts have put together thousands{' '}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
                   <br />
-                  of successful digital marketing compaigns for businesses{' '}
-                  <br /> looking to increase leads, phone calls, transactions,
-                  and <br /> qualified website traffic. They'll do the same for
-                  you. <br /> Request a free strategy proposal and get a game
-                  plan for <br /> elite revenue generation.
+                  Repudiandae temporibus distinctio quo earum et soluta sed ad{' '}
+                  <br />
+                  aliquam aut laborum saepe pariatur rerum illo non accusantium,{' '}
+                  <br />
+                  modi ea ipsum cum.
                 </p>
                 <div className='flex items-center space-x-2 border-b-2 border-gray-800 tracking-wide w-fit cursor-pointer'>
                   <p className='font-bold text-gray-800 text-lg'>Learn More</p>
