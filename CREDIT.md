@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file.
 
 - Configuration [Initial Setup] - configure a boiler start-up - Ntavigwa Bashombe - August 17, 2022
 
+- Configuration [Feature/Implementation] - Completion fo the website - Ntavigwa Bashombe - August 27, 2022
+
 #### Launch v0.001 - NEXT.JS WITH TYPESCRIPT TEMPLATE
 
 ##### Stats

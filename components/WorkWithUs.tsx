@@ -20,7 +20,7 @@ import { Square } from './Utils/__index__';
 const WorkWithUs = (): JSX.Element => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 py-40 bg-white'>
-      <div className='w-full md:w-10/12 relative flex items-center justify-center'>
+      <div className='w-full md:w-10/12 relative hidden md:flex items-center justify-center '>
         <Image src={picture} alt='work with us' className='rounded-r-xl' />
         <Square color='bg-yelleoww' />
       </div>
@@ -28,9 +28,12 @@ const WorkWithUs = (): JSX.Element => {
         <p className='text-6xl font-bold'>Work With Us,</p>
         <p className='text-6xl font-bold'>Not For Us.</p>
         <p className='my-14 text-gray-500 text-lg font-normal'>
-          There are more than 100 Definitions of Marketing. <br /> But we
-          understand that marketing is what <br /> happens in every company here
-          and now: <br /> Finding new solutions and launching new products.{' '}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          <br />
+          animi quo dolorem neque ducimus enim, repellat fugiat nemo corporis?
+          <br />
+          Libero laboriosam commodi esse laudantium earum, <br /> adipisci cum
+          vitae inventore illum!
         </p>
         <div className='flex items-center space-x-2 border-b-2 border-gray-800 tracking-wide cursor-pointer'>
           <p className='font-bold text-gray-800 text-lg'>Learn More</p>

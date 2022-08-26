@@ -2,17 +2,19 @@ import React from 'react';
 import '../styles/globals.css';
 
 import {
+  Blog,
+  Info,
+  Grow,
+  Team,
   TopBar,
   Header,
-  WorkWithUs,
-  Statistics,
-  Grow,
+  Footer,
   Service,
-  Info,
+  Contact,
   PayingIt,
   Campaign,
-  Team,
-  Blog,
+  Statistics,
+  WorkWithUs,
 } from '../components/__index__';
 
 /**
@@ -38,6 +40,8 @@ const App = (): JSX.Element => {
       <Campaign />
       <Team />
       <Blog />
+      <Contact />
+      <Footer />
     </div>
   );
 };

@@ -9,3 +9,5 @@ export { default as PayingIt } from './PayingIt';
 export { default as Campaign } from './Campaign';
 export { default as Team } from './Team';
 export { default as Blog } from './Blog';
+export { default as Contact } from './Contact';
+export { default as Footer } from './Footer';

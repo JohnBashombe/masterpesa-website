@@ -31,9 +31,7 @@ const Team = (): JSX.Element => {
         </div>
         <div className='flex flex-row justify-between'>
           <div className='flex flex-col space-y-2'>
-            <p className='text-3xl text-gray-900 font-semibold'>
-              Ntavigwa Bashombe
-            </p>
+            <p className='text-3xl text-gray-900 font-semibold'>N. Bas.</p>
             <p className='text-xl text-gray-600 font-normal'>
               Technology Director
             </p>

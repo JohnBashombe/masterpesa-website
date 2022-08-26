@@ -23,13 +23,13 @@ const Statistics = () => {
     <div className='w-full h-full bg-yelleoww p-36'>
       <div className='grid grid-cols-2 gap-5 space-y-5 md:space-y-16'>
         <Entry
-          number={'7,000+'}
-          description={'Qualified Leads Generated'}
+          number={'700,000+'}
+          description={'Mobile Money Transactions'}
           icon={<FaFunnelDollar className='w-8 h-8 text-white' />}
         />
         <Entry
-          number={'8,000+'}
-          description={'Qualified Calls Generated'}
+          number={'2,000+'}
+          description={'Partneship with Businesses'}
           icon={<FaPhoneVolume className='w-8 h-8 text-white -rotate-45' />}
         />
         <Entry

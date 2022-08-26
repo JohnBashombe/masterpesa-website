@@ -29,13 +29,21 @@ const Campaign = (): JSX.Element => {
           <p>Campaigns</p>
         </div>
         <div className='text-gray-600 font-medium space-y-1 text-lg'>
-          <p>Our Clients achieve tangible results because of our winning</p>
-          <p>combo - expert digital marketers and insights from our</p>
           <p>
-            technology platform. Master Pesa Inc has engineered a custom-built
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia
           </p>
-          <p>software platform designed to help clients make smarter</p>
-          <p>marketing decisions.</p>
+          <p>
+            eaque soluta, cum enim ratione quod vero facere magnam ad id maiores
+          </p>
+          <p>
+            incidunt quos delectus reiciendis quaerat natus perferendis esse.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia
+          </p>
+          <p>
+            eaque soluta, cum enim ratione quod vero facere magnam ad id maiores
+          </p>
         </div>
 
         <div className='flex items-center space-x-2 border-b-2 border-gray-800 tracking-wide cursor-pointer w-fit'>
