@@ -5,7 +5,7 @@ import Image from 'next/image';
 import picture from '../assets/clock-min.jpg';
 
 import { FaArrowRight } from 'react-icons/fa';
-import { HalfCircle } from './Utils/__index__';
+import { HalfCircle, Cube } from './Utils/__index__';
 
 /**
  * @author Ntavigwa Bashombe
@@ -18,16 +18,16 @@ import { HalfCircle } from './Utils/__index__';
  */
 const Grow = (): JSX.Element => {
   return (
-    <div className='w-full h-full py-36'>
+    <div className='w-full h-full py-10 px-10 xl:px-0 xl:py-36'>
       <div className='flex flex-col w-full h-full'>
-        <div className='flex flex-col'>
-          <div className='text-3xl ml-36 md:text-6xl text-gray-900 font-bold tracking-normal flex flex-col space-y-2'>
+        <div className='flex flex-col justify-center items-center xl:justify-start xl:items-start'>
+          <div className='text-4xl xl:ml-36 xl:text-6xl text-gray-900 font-bold tracking-normal flex flex-col space-y-2'>
             <p>Grow with the Payment</p> <p>Online Platform You</p>
             <p>Can Trust? </p>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2'>
+          <div className='grid grid-cols-1 xl:grid-cols-2'>
             <div className='flex flex-col'>
-              <div className='ml-36'>
+              <div className='xl:ml-36'>
                 <p className='my-12 text-gray-600 text-base md:text-lg font-medium tracking-wide'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.{' '}
                   <br />
@@ -42,23 +42,29 @@ const Grow = (): JSX.Element => {
                   <FaArrowRight className='w-5 h-5' />
                 </div>
               </div>
-              <div className='w-full md:w-10/12 mt-28'>
+              <div className='hidden xl:w-10/12 mt-28 relative xl:flex justify-center items-center'>
                 <Image
                   src={picture}
                   alt={'Master Pesa Picture'}
                   className='rounded-r-xl'
                 />
+                <div className='absolute z-40 -top-8'>
+                  <Cube />
+                </div>
               </div>
             </div>
-            <div className='flex flex-row justify-end items-start mt-10'>
-              <div className='flex flex-row justify-start items-center w-full md:w-11/12 relative'>
+            <div className='hidden xl:flex flex-row justify-end items-start mt-10'>
+              <div className='flex flex-row justify-start items-end w-full md:w-11/12 relative'>
                 <Image
                   src={picture}
-                  height={3000}
+                  height={2500}
                   alt={'Master Pesa Picture'}
                   className='rounded-r-xl'
                 />
                 <HalfCircle color='bg-yelleoww' />
+                <div className='absolute z-40 -top-5 -left-[75px]'>
+                  <Cube />
+                </div>
               </div>
             </div>
           </div>

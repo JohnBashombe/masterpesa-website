@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import picture from '../assets/clock-min.jpg';
 import { FaArrowRight } from 'react-icons/fa';
-import { Square } from './Utils/__index__';
+import { Square, Cube } from './Utils/__index__';
 
 /**
  * @author Ntavigwa Bashombe
@@ -17,12 +17,16 @@ import { Square } from './Utils/__index__';
  */
 const Campaign = (): JSX.Element => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 py-52'>
-      <div className='w-full md:w-10/12 relative flex justify-center'>
+    <div className='grid grid-cols-1 xl:grid-cols-2 px-10 xl:px-0 py-10 xl:py-52'>
+      <div className='w-full md:w-10/12 relative hidden xl:flex justify-center'>
         <Image src={picture} alt='MasterPesa' className='rounded-r-xl' />
         <Square color='bg-purplee' />
+
+        <div className='absolute z-40 -top-8 -right-16'>
+          <Cube />
+        </div>
       </div>
-      <div className='flex flex-col space-y-10'>
+      <div className='flex flex-col xl:justify-start xl:items-start justify-center items-center space-y-10'>
         <div className='text-gray-800 text-3xl md:text-7xl font-bold'>
           <p>Our Technology</p>
           <p>Powering Our</p>

@@ -20,8 +20,8 @@ import { IStatisticsProps } from '../interfaces/IStatistics';
  */
 const Statistics = () => {
   return (
-    <div className='w-full h-full bg-yelleoww p-36'>
-      <div className='grid grid-cols-2 gap-5 space-y-5 md:space-y-16'>
+    <div className='w-full h-full bg-yelleoww p-10 xl:p-36'>
+      <div className='grid grid-cols-2 gap-5 space-y-2 xl:space-y-5'>
         <Entry
           number={'700,000+'}
           description={'Mobile Money Transactions'}
@@ -55,12 +55,14 @@ const Entry = ({
   description,
 }: IStatisticsProps): JSX.Element => {
   return (
-    <div className='flex flex-col space-y-5 justify-center items-center'>
+    <div className='flex flex-col space-y-2 xl:space-y-5 justify-center items-center'>
       <div className='bg-gray-900 w-16 h-16 flex justify-center items-center rounded-full'>
         {icon}
       </div>
-      <p className='text-3xl md:text-8xl font-bold tracking-wider'>{number}</p>
-      <p className='text-gray-600 text-xl font-medium'>{description}</p>
+      <p className='text-3xl xl:text-8xl font-bold tracking-wider'>{number}</p>
+      <p className='text-gray-600 text-base xl:text-xl font-medium'>
+        {description}
+      </p>
     </div>
   );
 };

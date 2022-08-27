@@ -14,8 +14,8 @@ import { FaArrowRight } from 'react-icons/fa';
 const Contact = (): JSX.Element => {
   return (
     <div className='bg-purplee flex flex-row w-full z-30'>
-      <div className='flex flex-col bg-yelleoww rounded-r-full justify-center items-start pl-64 py-36 space-y-10 w-full md:w-4/6 z-10'>
-        <div className='text-7xl text-gray-900 font-bold space-y-2'>
+      <div className='flex flex-col bg-yelleoww rounded-r-full justify-center items-start xl:pl-64 py-36 px-10 xl:px-0 space-y-10 w-full xl:w-4/6 z-10'>
+        <div className='text-4xl xl:text-7xl text-gray-900 font-bold space-y-2'>
           <p>Let's Work</p>
           <p>Something</p>
           <p>Together.</p>
@@ -28,23 +28,14 @@ const Contact = (): JSX.Element => {
           <FaArrowRight />
         </div>
       </div>
-      <div className='flex flex-col space-y-1 mt-4 justify-center items-center w-2/6'>
-        <div className='flex space-x-1'>
-          <div className='w-full md:w-[200px] h-[200px] flex flex-row justify-center items-center rounded-tl-full  bg-white'>
-            <p className='text-5xl font-bold text-yelleoww text-center rotate-45 pl-14'>
-              Master
-            </p>
-          </div>
-          <div className='w-full md:w-[200px] h-[200px] flex flex-row justify-center items-center rounded-tr-full  bg-white'>
-            <p className='text-5xl font-bold text-purplee text-center -rotate-45 pr-14'>
-              Pesa
-            </p>
-          </div>
+      <div className='hidden xl:flex flex-col space-y-2 mt-4 justify-center items-center w-2/6'>
+        <div className='flex space-x-2'>
+          <div className='w-full md:w-[200px] h-[200px] flex flex-row justify-center items-center rounded-bl-full rounded-t-full rounded-xl bg-purplee'></div>
+          <div className='w-full md:w-[200px] h-[200px] flex flex-row justify-center items-center rounded-br-full rounded-t-full bg-yelleoww'></div>
         </div>
-        <div className='w-full md:w-[405px] h-[200px] flex flex-row justify-center items-center rounded-b-full  bg-white'>
-          <p className='text-5xl font-bold text-purplee text-center'>
-            Tanzania
-          </p>
+        <div className='flex space-x-2'>
+          <div className='w-full md:w-[200px] h-[200px] flex flex-row justify-center items-center rounded-tl-full rounded-b-full rounded-xl bg-yelleoww'></div>
+          <div className='w-full md:w-[200px] h-[200px] flex flex-row justify-center items-center rounded-tr-full rounded-b-full bg-purplee'></div>
         </div>
       </div>
     </div>

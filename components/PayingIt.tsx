@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
 
 import picture from '../assets/clock-min.jpg';
-import { HalfCircle } from './Utils/__index__';
+import { HalfCircle, Cube } from './Utils/__index__';
 
 /**
  * @author Ntavigwa Bashombe
@@ -18,9 +18,9 @@ import { HalfCircle } from './Utils/__index__';
  */
 const PayingIt = (): JSX.Element => {
   return (
-    <div className='w-full h-full bg-yelleoww py-36'>
-      <div className='grid grid-cols-1 md:grid-cols-2'>
-        <div className='ml-36 flex flex-col space-y-10'>
+    <div className='w-full h-full bg-yelleoww px-10 xl:px-0 py-10 xl:py-36'>
+      <div className='grid grid-cols-1 xl:grid-cols-2'>
+        <div className='xl:ml-36 flex flex-col xl:justify-start xl:items-start justify-center items-center space-y-10'>
           <p className='text-7xl font-bold text-gray-900'>Paying it forward</p>
           <div className='flex flex-col font-medium text-gray-600 text-lg'>
             <p>Through Masterpesa, we've partnered wth a different</p>
@@ -35,13 +35,16 @@ const PayingIt = (): JSX.Element => {
             <FaArrowRight className='w-5 h-5' />
           </div>
         </div>
-        <div className='relative flex justify-end items-center flex-col'>
+        <div className='relative hidden xl:flex justify-end items-center flex-col'>
           <Image
             src={picture}
             alt='MasterPesa Picture'
             className='rounded-l-xl'
           />
           <HalfCircle color='bg-purplee' />
+          <div className='absolute z-40 -top-8 rotate-90'>
+            <Cube />
+          </div>
         </div>
       </div>
     </div>
