@@ -20,13 +20,13 @@ import { IService } from '../interfaces/IService';
  */
 const Service = (): JSX.Element => {
   return (
-    <div className='bg-purplee py-36'>
+    <div className='bg-purplee py-10 xl:py-36'>
       <div className='flex flex-col'>
-        <div className='text-7xl font-bold text-white px-36 space-y-2'>
+        <div className='text-lg xl:text-7xl font-bold text-white px-10 xl:px-36 space-y-2'>
           <p>Full Service</p>
           <p>Digital Marketing</p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 mt-20 gap-5 md:gap-14'>
+        <div className='grid grid-cols-1 xl:grid-cols-2 mt-20 gap-5 md:gap-14'>
           <AService
             title={['Research and', 'Discovery']}
             description={[
@@ -83,7 +83,7 @@ const AService = ({ icon, title, description, rounded }: IService) => {
   return (
     <div
       className={
-        `bg-yelleoww px-36 py-20 space-y-8 ` +
+        `bg-yelleoww px-10 xl:px-36 py-20 space-y-8 ` +
         (rounded === 'left' ? ' rounded-l-2xl' : ' rounded-r-2xl')
       }
     >

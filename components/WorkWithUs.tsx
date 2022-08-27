@@ -6,7 +6,7 @@ import picture from '../assets/clock-min.jpg';
 
 import { FaArrowRight } from 'react-icons/fa';
 
-import { Square } from './Utils/__index__';
+import { Square, Cube } from './Utils/__index__';
 
 /**
  * @author Ntavigwa Bashombe
@@ -19,12 +19,15 @@ import { Square } from './Utils/__index__';
  */
 const WorkWithUs = (): JSX.Element => {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 py-40 bg-white'>
-      <div className='w-full md:w-10/12 relative hidden md:flex items-center justify-center '>
+    <div className='grid grid-cols-1 lg:grid-cols-2 py-10 xl:py-40 bg-white'>
+      <div className='hidden xl:w-10/12 relative xl:flex items-center justify-center '>
         <Image src={picture} alt='work with us' className='rounded-r-xl' />
         <Square color='bg-yelleoww' />
+        <div className='absolute z-40 top-8 -right-[75px]'>
+          <Cube />
+        </div>
       </div>
-      <div className='flex flex-col justify-start items-start'>
+      <div className='flex flex-col justify-center xl:justify-start items-center xl:items-start p-10 xl:p-0'>
         <p className='text-6xl font-bold'>Work With Us,</p>
         <p className='text-6xl font-bold'>Not For Us.</p>
         <p className='my-14 text-gray-500 text-lg font-normal'>

@@ -13,6 +13,8 @@ import {
   FaCcMastercard,
 } from 'react-icons/fa';
 
+import { Cube } from './Utils/__index__';
+
 import picture from '../assets/clock-min.jpg';
 
 /**
@@ -26,7 +28,7 @@ import picture from '../assets/clock-min.jpg';
  */
 const Header = (): JSX.Element => {
   return (
-    <div className='w-full h-full md:mx-auto my-4 md:my-16'>
+    <div className='w-full h-full md:mx-auto px-10 xl:px-0 my-4 md:my-16'>
       <div className='grid grid-cols-1 md:grid-cols-2 px-2 md:pl-36'>
         <div className='flex flex-col w-full py-5 space-y-4'>
           <div className='flex flex-col tracking-wide text-4xl md:text-7xl font-extrabold'>
@@ -39,7 +41,7 @@ const Header = (): JSX.Element => {
             <p>Money</p>
             <p>Transactions</p>
           </div>
-          <p className='text-base font-medium text-gray-500 tracking-normal py-10'>
+          <p className='text-lg font-medium text-gray-500 tracking-normal py-10'>
             Choose MasterPesa as your personnal mobile wallet and
             <br />
             profite from all the benefits we have to offer by connecting your
@@ -59,10 +61,13 @@ const Header = (): JSX.Element => {
             <FaPinterestP className='cursor-pointer hover:text-gray-900' />
           </div>
         </div>
-        <div className='hidden md:flex flex-col justify-center w-full h-full'>
+        <div className='hidden xl:flex flex-col justify-center w-full h-full relative'>
+          <div className='absolute z-40 top-8 -left-[75px]'>
+            <Cube />
+          </div>
           <Image
             src={picture}
-            height={'2500px'}
+            height={'2400px'}
             alt='masterpesa photo'
             className='rounded-l-xl'
           />
