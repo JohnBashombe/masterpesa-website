@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         pinky: '#FFF7F0',
-        yelleoww: '#FFE121',
-        purplee: '#6368E5',
+        yelleoww: '#D5920B',
+        purplee: '#5590B4',
       },
     },
   },
